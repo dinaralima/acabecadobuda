@@ -1,0 +1,46 @@
+/* ÁREA DE TÍTULO SUPERIOR */
+
+.area_titulo{
+  height: 140px;
+  position: relative;
+  z-index: -5;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgba(255,255,255,0.8);
+  background-image: url(../imagens/fundo.jpg);
+  display: block;
+}
+
+.area_titulo:after{
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  content: '';
+}
+
+.page-title h1{
+  text-transform: uppercase;
+}
+
+/* AREA DE CONTEUDO */
+.loja{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* CATEGORIAS */
+ul.menu-categorias{
+  list-style: none;
+}
+
+/* CADA PRODUTO */
+a.btn.comprar{
+  background-color: #999;
+  color: #fff;
+}
