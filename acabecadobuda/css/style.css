@@ -86,3 +86,56 @@ p{
 .cart-area a:hover{
   text-decoration: none;
 }
+
+/* RODAPÉ */
+
+.footer_area{
+  background-color: #373339;
+  color: #FFFAF0;
+}
+
+.footer_area a{
+  color: #FFFAF0;
+}
+
+.footer-logo img{
+  width: 160px;
+}
+
+.footer-logo img{
+  width: 200px;
+}
+
+.footer_menu_loja ul{
+  display: flex;
+}
+
+.footer_menu_loja ul li, .footer_menu li{
+  list-style: none;
+}
+
+.footer_menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rodape li a{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  font-weight: 400;
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+
+p.direitos{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(255,255,255,0.6);
+}
+
+/* ADAPTAÇÃO RESPONSIVA */
+.navbar-toggler{
+  margin-left: -50px!important;
+}
