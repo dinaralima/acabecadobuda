@@ -13,9 +13,9 @@
 	</head>
 	<body id="pagina-categoria">
     <header class="header_area">
-			<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			  <a class="navbar-brand p-3" href="#">
-					<img src="imagens/cabeca-buda-logo-2x.png" width="180px" alt="a cabeça do buda">
+					<img src="imagens/cabeca-buda-logo-2x.png" alt="a cabeça do buda">
 				</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoMenu">
 			    <span class="navbar-toggler-icon"></span>
@@ -23,23 +23,20 @@
 			  <div class="collapse navbar-collapse ml-5" id="conteudoMenu">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
+			        <a class="nav-link" href="index.html">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Masculino</a>
+			        <a class="nav-link" href="categoria.html">Masculino</a>
 			      </li>
 						<li class="nav-item">
-			        <a class="nav-link" href="#">Feminino</a>
+			        <a class="nav-link" href="categoria.html">Feminino</a>
 			      </li>
 						<li class="nav-item">
-			        <a class="nav-link" href="#">Promoções</a>
-			      </li>
-						<li class="nav-item">
-			        <a class="nav-link" href="#">Contato</a>
+			        <a class="nav-link" href="contato.html">Contato</a>
 			      </li>
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-			          Link com Dropdown
+			          Opções
 			        </a>
 			        <div class="dropdown-menu">
 			          <a class="dropdown-item" href="#">Página 1</a>
@@ -61,11 +58,11 @@
 						</div>
 						<!-- Área de login -->
 						<div class="user-login-info">
-								<a href="#"><i class="fas fa-user" aria-hidden="true"></i></a>
+								<a href="login.html"><i class="fas fa-user" aria-hidden="true"></i><span>Login</span></a>
 						</div>
 						<!-- Carrinho -->
 						<div class="cart-area">
-								<a href="#"><i class="fas fa-shopping-bag" aria-hidden="true"></i> <span>3</span></a>
+								<a href="checkout.html"><i class="fas fa-shopping-bag" aria-hidden="true"></i> <span>3</span></a>
 						</div>
 				</div>
 			</nav>
@@ -258,7 +255,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="d-flex mt-5 mr-5">
+                    <div class="d-flex mt-5 mr-5 footer">
                         <!-- Logo -->
                         <div class="footer-logo">
                             <a href="#"><img src="imagens/cabeca-buda-fundo-escuro-2x.png" alt=""></a>
@@ -266,20 +263,18 @@
                         <!--  Menu primário-->
                         <div class="footer_menu_loja ml-5 mt-5">
                             <ul>
-                                <li><a href="#">Loja</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Contato</a></li>
+                                <li><a href="index.html">Loja</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="contato.html">Contato</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <!-- Menu secundário -->
-                <div class="col-12 col-md-6 mt-5">
+                <div class="menu-secundario col-12 col-md-6">
                     <div class="">
                         <ul class="footer_menu mt-5">
-                            <li><a href="#">Opções de pagamento</a></li>
                             <li><a href="#">Entrega</a></li>
-                            <li><a href="#">Guias</a></li>
                             <li><a href="#">Política de privacidade</a></li>
                             <li><a href="#">Termos de uso</a></li>
                         </ul>

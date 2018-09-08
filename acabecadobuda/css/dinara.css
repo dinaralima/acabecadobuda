@@ -61,5 +61,30 @@
 }
 
 #pagina-categoria .product-img img{
-  width: 250px;
+  max-width: 100%;
+}
+
+.single-product-wrapper{
+  padding-bottom: 20px;
+}
+
+/* ADAPTAÇÃO RESPONSIVA */
+
+/*extra small*/
+@media only screen and (max-width : 767px){
+  .loja_sidebar_area{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+  .single-product-wrapper{
+    text-align: center;
+  }
+
+}
+
+/*medium*/
+
+@media only screen and (max-width : 991px){
+
 }
