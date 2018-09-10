@@ -14,7 +14,7 @@
 }
 
 .area_titulo:after{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -29,18 +29,62 @@
 }
 
 /* AREA DE CONTEUDO */
-.loja{
+#pagina-categoria .loja{
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
 /* CATEGORIAS */
-ul.menu-categorias{
+#pagina-categoria ul.menu-categorias{
   list-style: none;
 }
 
 /* CADA PRODUTO */
-a.btn.comprar{
-  background-color: #999;
+#pagina-categoria a.btn.comprar{
+  background-color: #C3DB5D;
   color: #fff;
+}
+
+#pagina-categoria a{
+  color: #373339;
+}
+
+#pagina-categoria h6.titulo-sidebar{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+#pagina-categoria h6{
+  margin-top: 10px;
+}
+
+#pagina-categoria .product-img img{
+  max-width: 100%;
+}
+
+.single-product-wrapper{
+  padding-bottom: 20px;
+}
+
+/* ADAPTAÇÃO RESPONSIVA */
+
+/*extra small*/
+@media only screen and (max-width : 767px){
+  .loja_sidebar_area{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  }
+  .single-product-wrapper{
+    text-align: center;
+  }
+
+}
+
+/*medium*/
+
+@media only screen and (max-width : 991px){
+
 }
