@@ -1,0 +1,92 @@
+/* FIXES */
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#present {
+    margin: 0px;
+    /* margin-bottom: 3%; */
+    background-image: url("../imagens/fundo-bkp.jpg");
+    background-repeat: repeat;
+}
+
+#modelo{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+#about {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    height: 30%;
+}
+
+
+#descritivo {
+    padding: 10px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 3%;
+    border: 5px solid floralwhite;
+    background-color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+#text{
+    text-align: justify;
+}
+
+.size, .color{
+    padding: 5px;
+    font: inherit;
+    border-color: gray;
+    height: 35px;
+    width: 60px;
+    background-color: aliceblue;
+    color: black
+}
+
+.conclude {
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+    padding: 3px;
+}
+
+.size, .color, .conclude{
+    align-content: flex-start;
+    margin: 5px;
+    display: inline;
+}
+
+@media (min-width: 990px) {
+    .size:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+    .color:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+    .conclude:hover{
+    border: 3px solid forestgreen;
+    background-color: white;
+    color: forestgreen;
+    cursor: pointer;
+}
+}
+

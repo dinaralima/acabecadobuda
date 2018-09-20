@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imagens/fundo-bkp.jpg");
+    object-fit: cover;
+}
+
+#faq-box {
+    width: 70%;
+    margin: 5% 15%;
+    border: 6px solid gray;
+    padding: 0px;
+    z-index: 9;
+}
+
+#q-box {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+
+#a-box {
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+}
+
+#q-box, #a-box {
+    padding: 5px;
+    text-align: justify
+}
