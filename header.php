@@ -1,6 +1,6 @@
 <header class="header_area">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand p-3" href="index.html">
+			  <a class="navbar-brand p-3" href="index.php">
 					<img src="imagens/cabeca-buda-logo-2x.png" alt="a cabeça do buda">
 				</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoMenu">
@@ -8,17 +8,17 @@
 			  </button>
 			  <div class="collapse navbar-collapse ml-5" id="conteudoMenu">
 			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">                        
-			        <a class="nav-link" href="index.html">Home</a>
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.php">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="categoria.html">Masculino</a>
+			        <a class="nav-link" href="categoria.php">Masculino</a>
 			      </li>
 						<li class="nav-item">
-			        <a class="nav-link" href="categoria.html">Feminino</a>
+			        <a class="nav-link" href="categoria.php">Feminino</a>
 			      </li>
 						<li class="nav-item">
-			        <a class="nav-link" href="contato.html">Contato</a>
+			        <a class="nav-link" href="contato.php">Contato</a>
 			      </li>
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
@@ -44,7 +44,7 @@
 						</div>
 						<!-- Área de login -->
 						<div class="user-login-info">
-								<a href="login.html"><i class="fas fa-user" aria-hidden="true"></i><span>Login</span></a>
+								<a href="login.php"><i class="fas fa-user" aria-hidden="true"></i><span>Login</span></a>
 						</div>
 						<!-- Carrinho -->
 						<div class="cart-area">
@@ -54,4 +54,3 @@
 			</nav>
 
     </header>
-        
