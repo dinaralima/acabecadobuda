@@ -11,7 +11,7 @@
                         <div class="footer_menu_loja ml-5 mt-5">
                             <ul>
                                 <li><a href="index.html">Loja</a></li>
-                                <li><a href="login.html">Login</a></li>
+                                <li><a href="cadastro.php">Cadastro</a></li>
                                 <li><a href="contato.html">Contato</a></li>
                             </ul>
                         </div>
