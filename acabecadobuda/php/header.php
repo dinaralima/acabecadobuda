@@ -1,3 +1,8 @@
+<?php session_start();
+error_reporting(1);
+include('includes/funcoes.php');
+include('includes/acoes.php');
+?>
 <header class="header_area">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			  <a class="navbar-brand p-3" href="index.html">
@@ -8,7 +13,7 @@
 			  </button>
 			  <div class="collapse navbar-collapse ml-5" id="conteudoMenu">
 			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">                        
+			      <li class="nav-item active">
 			        <a class="nav-link" href="index.html">Home</a>
 			      </li>
 			      <li class="nav-item">
@@ -43,9 +48,20 @@
 								</form>
 						</div>
 						<!-- Área de login -->
-						<div class="user-login-info">
-								<a href="login.html"><i class="fas fa-user" aria-hidden="true"></i><span>Login</span></a>
-						</div>
+  						<?php if (is_logged()) { ?>
+                            <div class="user-login-info">
+								<i class="fas fa-user" aria-hidden="true"></i><span> Olá,	<?php echo $_SESSION['usuario']['nome']; ?>				</span>
+							</div>
+							<div class="user-login-info">
+								<a href="includes/acoes.php?acao=logout" class="fas fa-power-off" aria-hidden="true"><span>Sair</span></a>
+							</div>
+
+						<?php } else { ?>
+					    <div class="user-login-info">
+									<a href="login.php"><i class="fas fa-user" aria-hidden="true"></i><span>Login</span></a>
+							</div>
+						<?php } ?>
+
 						<!-- Carrinho -->
 						<div class="cart-area">
 								<a href="checkout.html"><i class="fas fa-shopping-bag" aria-hidden="true"></i> <span>3</span></a>
@@ -54,4 +70,3 @@
 			</nav>
 
     </header>
-        

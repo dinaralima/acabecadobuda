@@ -12,25 +12,30 @@
 		<title>A Cabeça do Buda - Folha de estilos</title>
 	</head>
 	<body>
-    <?php include("header.php"); ?>
+  <?php include("header.php");
+  if ($_GET['msg'] == 'erro') {
+			$erro = "<div class=''>Usuário ou senha inválido</div><br>";
+		}
+	?>
 <section>
   <div class="container-fluid fundoLogin">
   <div class="container">
     <div class="row">
 
       <div class="loginArea col-12 col-sm-12 col-md-12 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 mt-4">
-        <form>
+        <form action="includes/acoes.php" method="POST">
           <div class="inputUsuario">
           <label for="username">USUÁRIO</label><br>
-          <input type="text" class="username" name="username" placeholder="E-mail ou nome de usuário"><br>
+          <input type="text" class="username" name="username" placeholder="Insira seu e-mail" required><br>
           <br>
-          <label for="username">SENHA</label><br>
-          <input type="password" class="senha" name="senha"><br>
+          <label for="senha">SENHA</label><br>
+          <input type="password" class="senha" name="senha" required><br>
         </div><br>
+				<? echo $erro; ?>
         <div class="botoesLogin">
           <input class="checkbox" type="checkbox" name="lembrar-dados"><i>Lembrar meus dados</i><br>
           <br>
-          <button type="submit" name="fazer-login">LOGIN</button>
+          <button type="submit" name="acao" value="login">LOGIN</button>
         </div></form>
     </div>
   </div>
