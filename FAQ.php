@@ -7,12 +7,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link href="css/home.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-        <link href="css/brottin.css" rel="stylesheet">
+  <link href="css/novo.css" rel="stylesheet">
 		<title>A Cabeça do Buda - FAQ</title>
 	</head>
 	<body>
+		<div class="fundobodyfaq">
         <?php include("header.php"); ?>
 		<section>
         <div class="container-fluid" id="faq-box">
@@ -65,6 +64,7 @@
                 <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
                   </div>
         </div>
+			</div>
 		</section>
         <?php include("footer.php"); ?>
 		<!-- SCRIPTS DE JS PARA O BOOTSTRAP -->

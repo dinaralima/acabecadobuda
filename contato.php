@@ -7,9 +7,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link href="css/style.css" rel="stylesheet">
-<link href="css/dinara.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/abner.css">
+  <link href="css/novo.css" rel="stylesheet">
 		<title>A Cabeça do Buda - Camisetas</title>
 	</head>
 	<body id="pagina-categoria">
@@ -21,17 +19,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-7">
-          <img class="img" src="imagens/contato.jpg" alt="">
+          <img class="imgcontato" src="imagens/contato.jpg" alt="">
         </div><!-- fim col-lg-08-->
-        <div class="col-lg-5">
+        <div class="col-lg-5 margintopdez">
           <h1 class="topico"> Nossas Lojas - Guide Shop </h1>
           <br>
           <br>
           <br>
           <p class="para">Você pode retirar suas compras em qualquer um dos nossos Guide Shops. Os Pedidos chegam em até dois dias úteis e com frete grátis. Para escolher essa opção, é só marcar "Retirar no Guide Shop" na página de pagamento e selecionar o Guide Shop mais conveniente pra você.</p>
           <br>
-          <br><b>ENDEREÇO: <i class="cardoso">Cardoso de  Melo,90</i></b>
-          <br><b>TELEFONE: <i class="cardoso">+55 11 3333-3333</i></b>
+          <br><b class="tituloinfos">ENDEREÇO: <i class="cardoso">Cardoso de  Melo,90</i></b>
+          <br><b class="tituloinfos">TELEFONE: <i class="cardoso">+55 11 3333-3333</i></b>
         </div>
 
 

@@ -42,7 +42,14 @@ width: 100%;
 
 }
 
+.pcheckout{
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Ubuntu';
 
+}
 @media (max-width: 576px){
 .col-sm-6 {
     -webkit-box-flex: 0;

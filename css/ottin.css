@@ -67,6 +67,7 @@
     display: inline;
 }
 
+
 @media (min-width: 990px) {
     .size:hover{
     background-color: black;
@@ -89,4 +90,3 @@
     cursor: pointer;
 }
 }
-

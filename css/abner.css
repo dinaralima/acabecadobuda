@@ -1,7 +1,4 @@
-h1 {
-  margin-left: 30px;
-}
-.img {
+.imgcontato {
   width: 105%;
   height: 700px;
 }
@@ -12,12 +9,14 @@ h1 {
   font-weight: bolder;
   background-color: #c0c0c0;
   margin-top: 20px;
+  margin-left: 30px;
 }
-.cardoso {
 
+.cardoso {
 color: grey;
 margin-left: 30px;
 }
+
 .para {
   text-align: justify;
   padding: 7px;
@@ -28,9 +27,11 @@ border-radius: 5px;
   font-weight: lighter;
   margin-left: 30px;
 }
-b {
+
+b .tituloinfos {
   margin-left: 30px;
 }
-.col-lg-5 {
+
+.margintopdez {
   margin-top: 10px;
 }

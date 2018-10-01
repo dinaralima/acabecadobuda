@@ -7,13 +7,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/dinara.css" rel="stylesheet">
+		<link href="css/novo.css" rel="stylesheet">
 		<title>A Cabeça do Buda - Camisetas</title>
 	</head>
 	<body id="pagina-categoria">
     <?php include ("header.php"); ?>
-		<section class="titulo">
+		<section class="area_titulo">
 			<div class="area_titulo align-middle">
 				<div class="container h-100">
             <div class="row h-100 align-items-center">

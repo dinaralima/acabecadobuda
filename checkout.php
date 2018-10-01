@@ -3,8 +3,7 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="css/style.css" rel="stylesheet">
- <link href="css/mila.css" rel="stylesheet">
+  <link href="css/novo.css" rel="stylesheet">
  <link rel="stylesheet" href="bootstrap-4/css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -14,8 +13,15 @@
 
     <title></title>
   </head>
-  <body>
+  <body class="checkout">
     <?php include("header.php") ?>
+
+    <header>
+      <div class="container-fluid backbanner"></div>
+      <div class="col align-self-start checktitulo">
+          <p class="pcheckout"> CheckOut </p> </div>
+      </div>
+    </header>
 
     <div class="container clearboth checkoutwrapper">
     <div class="row">
